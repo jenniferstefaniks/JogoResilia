@@ -1,17 +1,4 @@
-
-# Variável Global
-mensagem = "BEM-VINDO AO JOGO - VIDA DE PROGRAMADOR"
-pontos = 0
-
-# Funções e metodos:
-def tema(titulo):
-    print(titulo.center(100, " "))
-
-def limpa_tela():
-    print("\x1b[2J")
-
-def separador(asterisco):
-    print( 80* (asterisco))
+import View
 
 def escolha_personagem():
 
